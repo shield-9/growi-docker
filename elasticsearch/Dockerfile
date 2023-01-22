@@ -1,4 +1,4 @@
-FROM docker.elastic.co/elasticsearch/elasticsearch:6.8.6
+FROM docker.elastic.co/elasticsearch/elasticsearch:6.8.23
 LABEL maintainer Daisuke Takahashi <daisuke@extendwings.com>
 
 RUN bin/elasticsearch-plugin install --batch analysis-kuromoji
